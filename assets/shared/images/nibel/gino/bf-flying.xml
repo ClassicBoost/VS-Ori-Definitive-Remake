@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bf-flying.png"><SubTexture name="bf-flying flying0000" x="133" y="166" width="142" height="161" frameX="-53" frameY="-29" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying flying0001" x="275" y="166" width="119" height="157" frameX="-69" frameY="-29" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying flying0002" x="161" y="0" width="163" height="164" frameX="-22" frameY="-34" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying flying0003" x="0" y="0" width="161" height="166" frameX="-24" frameY="-34" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying flying0004" x="324" y="0" width="139" height="163" frameX="-46" frameY="-34" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying flying0005" x="0" y="166" width="133" height="162" frameX="-52" frameY="-34" frameWidth="260" frameHeight="234" />
+<SubTexture name="bf-flying thud0000" x="0" y="328" width="176" height="119" frameX="-14" frameY="-61" frameWidth="260" frameHeight="234" />
+</TextureAtlas>

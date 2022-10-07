@@ -1,0 +1,314 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "ginsotree",
+		"player1": "gone",
+		"player2": "gone2",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"cameraflash",
+						"hud,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				30000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				54000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				78000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"hud,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					]
+				]
+			],
+			[
+				102000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				132000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"game,FFFFFF",
+						"1"
+					],
+					[
+						"upscroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				156000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".1"
+					],
+					[
+						"cameraflash",
+						"hud,00A2E8",
+						"1"
+					],
+					[
+						"sidescroll",
+						"",
+						""
+					]
+				]
+			],
+			[
+				169125,
+				[
+					[
+						"Add Camera Zoom",
+						"0",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gone",
+		"bpm": 160,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Restoring The Light"
+	}
+}

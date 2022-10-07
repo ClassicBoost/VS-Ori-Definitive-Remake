@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Decay", "shriek", [150, 150, 150]]
+	],
+	
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "niwen",
+
+	"storyName": "Oh fuck",
+	"weekBefore": "week3",
+	"weekName": "Week 4",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

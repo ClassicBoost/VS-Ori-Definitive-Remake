@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="savemechanic.png"><SubTexture name="savemechanic 0i0000" x="0" y="0" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 1i0000" x="214" y="0" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 2i0000" x="0" y="199" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 3i0000" x="214" y="199" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 4i0000" x="428" y="0" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 5i0000" x="428" y="199" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 6i0000" x="0" y="398" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 7i0000" x="214" y="398" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 8i0000" x="428" y="398" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 9i0000" x="642" y="0" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+<SubTexture name="savemechanic 10i0000" x="642" y="199" width="214" height="199" frameX="-24" frameY="-23" frameWidth="283" frameHeight="249" />
+</TextureAtlas>

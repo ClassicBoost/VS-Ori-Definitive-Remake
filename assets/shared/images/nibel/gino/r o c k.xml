@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="r o c k.png"><SubTexture name="r o c k yeet0000" x="902" y="597" width="361" height="342" frameX="-498" frameY="-132" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0001" x="0" y="1042" width="381" height="336" frameX="-468" frameY="-138" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0002" x="0" y="597" width="420" height="445" frameX="-450" frameY="-74" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0003" x="420" y="597" width="482" height="412" frameX="-419" frameY="-66" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0004" x="0" y="0" width="683" height="597" frameX="-381" frameY="-12" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0005" x="683" y="0" width="706" height="563" frameX="-369" frameY="-53" frameWidth="1318" frameHeight="1044" />
+<SubTexture name="r o c k yeet0006" x="381" y="1042" width="351" height="336" frameX="-498" frameY="-138" frameWidth="1318" frameHeight="1044" />
+</TextureAtlas>

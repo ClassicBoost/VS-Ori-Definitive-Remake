@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="shriek.png"><SubTexture name="shriek idle0000" x="0" y="0" width="678" height="1225" frameX="-314" frameY="-31" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek idle0001" x="0" y="1225" width="689" height="1179" frameX="-303" frameY="-77" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek idle0002" x="2034" y="0" width="685" height="1191" frameX="-307" frameY="-65" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek idle0003" x="1356" y="0" width="678" height="1198" frameX="-314" frameY="-58" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek idle0004" x="678" y="0" width="678" height="1218" frameX="-314" frameY="-38" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek down0000" x="818" y="2404" width="818" height="1114" frameX="-241" frameY="-93" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek down0001" x="0" y="2404" width="818" height="1121" frameX="-241" frameY="-85" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek left0000" x="689" y="1225" width="758" height="1178" frameX="-216" frameY="-42" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek left0001" x="1447" y="1225" width="750" height="1178" frameX="-226" frameY="-42" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek right0000" x="2719" y="0" width="750" height="1168" frameX="-277" frameY="-46" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek right0001" x="2719" y="1168" width="743" height="1168" frameX="-275" frameY="-46" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek up0000" x="3469" y="0" width="821" height="1166" frameX="-258" frameY="-75" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="shriek up0001" x="3469" y="1166" width="821" height="1157" frameX="-258" frameY="-84" frameWidth="1280" frameHeight="1280" />
+</TextureAtlas>

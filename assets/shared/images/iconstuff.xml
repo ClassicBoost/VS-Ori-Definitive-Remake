@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="iconstuff.png"><SubTexture name="save yes0000" x="566" y="254" width="214" height="202" frameX="-24" frameY="-20" frameWidth="283" frameHeight="299" />
+<SubTexture name="save no0000" x="0" y="281" width="221" height="264" frameX="-19" frameY="-22" frameWidth="283" frameHeight="299" />
+<SubTexture name="dodge yes0000" x="221" y="281" width="280" height="254" frameX="-3" frameY="-24" frameWidth="283" frameHeight="299" />
+<SubTexture name="dodge no0000" x="0" y="0" width="283" height="281" frameX="0" frameY="-18" frameWidth="283" frameHeight="299" />
+<SubTexture name="interact yes0000" x="566" y="0" width="283" height="254" frameX="0" frameY="-24" frameWidth="283" frameHeight="299" />
+<SubTexture name="interact no0000" x="283" y="0" width="283" height="280" frameX="0" frameY="-7" frameWidth="283" frameHeight="299" />
+<SubTexture name="left0000" x="0" y="545" width="199" height="199" frameX="-38" frameY="-24" frameWidth="283" frameHeight="299" />
+<SubTexture name="right0000" x="199" y="545" width="199" height="199" frameX="-38" frameY="-24" frameWidth="283" frameHeight="299" />
+</TextureAtlas>

@@ -1,0 +1,283 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "God Freaking dang It Boyfriend, Where the heck are we",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "I don't know",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Hm? Oh welcome newcomers. Welcome to Nibel",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "talk",
+			"text": "See we are in Nibel",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "And you're not gonna ask how it can speak english",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Nope. Not like I've seen that stuff in the past",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Anyway, what is your name?",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "My names Ori. I'm a spirit guardian that lives here with my family.",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "So you're adopted?",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Yes. Anyways what brings you here?",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "I don't know, I just walk through a portal that randomly appeared in the allyway",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "That's... Strange...",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "I have seen way stranger things then that",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Anyways feel free to make yourself at home. We are always open to visitors in Nibel",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "Where could I stay at? I don't see any buildings nearby.",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Well theres some tree shelters built by the moki in different parts of the forest.",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Boyfriend, I don't think they know modern technology like us",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "oh shoot",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Modern technology? What do you consider modern?",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "well",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "5 hours later",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "none"
+		},
+		{
+			"expression": "talk",
+			"text": "And that's modern technology",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh- the best we have is wooden gears that use water to move or the energy form natural sources of energy.",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "talk",
+			"text": "",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "anyway... uhh... how do we get out of here?",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "I don't know. Perhaps try to find another portal?",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "confused",
+			"text": "If we could",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Or maybe the portal could reopen in the same place in a while",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Maybe",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "You know, how about you teach him how to sing.",
+			"boxState": "normal",
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "I've sang before. Naru used to sing tunes to me when I was really young.",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh cool, but you still know to sing and such right? And also used a Microphone?",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "I've never used that. And I guess I could use a warm up. It has been a long time.",
+			"boxState": "normal",
+			"sound": "oriText",
+			"speed": 0.05,
+			"portrait": "ori"
+		},
+		{
+			"expression": "talk",
+			"text": "Ok",
+			"boxState": "normal",
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

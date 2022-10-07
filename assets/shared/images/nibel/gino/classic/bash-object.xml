@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bash-object.png"><SubTexture name="bash-object bash0000" x="0" y="0" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0001" x="0" y="261" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0002" x="659" y="0" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0003" x="659" y="261" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0004" x="0" y="522" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0005" x="659" y="522" width="659" height="261" frameX="-569" frameY="-261" frameWidth="1980" frameHeight="1080" />
+<SubTexture name="bash-object bash0006" x="0" y="783" width="659" height="261" frameX="-584" frameY="-268" frameWidth="1980" frameHeight="1080" />
+</TextureAtlas>

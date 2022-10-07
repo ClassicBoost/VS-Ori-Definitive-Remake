@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Spirit Tree", "ori", [255,255,255]],
+		["Restoring The Light", "ori", [255,255,255]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "nibel",
+
+	"storyName": "The Light of Nibel",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

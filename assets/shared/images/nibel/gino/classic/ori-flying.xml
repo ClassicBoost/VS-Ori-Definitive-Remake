@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ori-flying.png"><SubTexture name="ori-flying fly0000" x="0" y="329" width="121" height="143" frameX="-89" frameY="-77" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0000" x="123" y="182" width="144" height="146" frameX="-64" frameY="-56" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0001" x="121" y="472" width="151" height="107" frameX="-75" frameY="-94" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0002" x="130" y="0" width="128" height="166" frameX="-97" frameY="-47" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0003" x="244" y="329" width="165" height="128" frameX="-66" frameY="-70" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0004" x="361" y="0" width="120" height="144" frameX="-88" frameY="-69" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0005" x="361" y="144" width="116" height="144" frameX="-95" frameY="-75" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0006" x="258" y="0" width="103" height="154" frameX="-108" frameY="-80" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying flip0007" x="0" y="0" width="130" height="182" frameX="-91" frameY="-74" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying land0000" x="594" y="290" width="129" height="90" frameX="-87" frameY="-163" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying land0001" x="594" y="0" width="129" height="101" frameX="-87" frameY="-153" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying realization0000" x="0" y="182" width="123" height="147" frameX="-89" frameY="-110" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying realization0001" x="121" y="329" width="123" height="130" frameX="-89" frameY="-126" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0000" x="481" y="0" width="113" height="109" frameX="-93" frameY="-149" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0001" x="272" y="472" width="118" height="106" frameX="-93" frameY="-151" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0002" x="390" y="472" width="130" height="103" frameX="-94" frameY="-153" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0003" x="594" y="198" width="120" height="92" frameX="-106" frameY="-167" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0004" x="594" y="101" width="102" height="97" frameX="-112" frameY="-162" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying run0005" x="481" y="109" width="105" height="105" frameX="-101" frameY="-159" frameWidth="3840" frameHeight="2160" />
+<SubTexture name="ori-flying help0000" x="0" y="472" width="121" height="109" frameX="-92" frameY="-156" frameWidth="3840" frameHeight="2160" />
+</TextureAtlas>

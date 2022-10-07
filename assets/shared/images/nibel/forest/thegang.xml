@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="thegang.png">
+<SubTexture name="thegang idle0000" x="0" y="1789" width="1166" height="543" frameX="-96" frameY="-108" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang idle0001" x="1166" y="1211" width="1166" height="557" frameX="-96" frameY="-94" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang idle0002" x="0" y="1211" width="1166" height="578" frameX="-96" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang idle0003" x="1233" y="614" width="1166" height="596" frameX="-96" frameY="-55" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang idle0004" x="0" y="0" width="1166" height="614" frameX="-96" frameY="-37" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang hey0000" x="0" y="614" width="1233" height="597" frameX="-29" frameY="-56" frameWidth="1280" frameHeight="720" />
+<SubTexture name="thegang hey0001" x="1166" y="0" width="1233" height="614" frameX="-29" frameY="-37" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

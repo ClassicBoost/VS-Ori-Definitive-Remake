@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				151,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ori left0"
+		},
+		{
+			"offsets": [
+				39,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ori down0"
+		},
+		{
+			"offsets": [
+				74,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ori up0"
+		},
+		{
+			"offsets": [
+				-18,
+				48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ori right0"
+		},
+		{
+			"offsets": [
+				151,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "ori left miss0"
+		},
+		{
+			"offsets": [
+				39,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "ori down miss0"
+		},
+		{
+			"offsets": [
+				74,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "ori up miss0"
+		},
+		{
+			"offsets": [
+				-18,
+				48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "ori right miss0"
+		},
+		{
+			"offsets": [
+				1,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ori idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				109,
+				-8
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "ori-scared ded",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				109,
+				-7
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "ori-scared ded",
+			"indices": []
+		},
+		{
+			"offsets": [
+				110,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "ori dies"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ori_assets",
+	"position": [
+		-100,
+		140
+	],
+	"healthicon": "ori",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		50,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

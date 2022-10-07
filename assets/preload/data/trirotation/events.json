@@ -1,0 +1,79 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "oriforestrain",
+		"player1": "bf-scared",
+		"player2": "evilori",
+		"player3": null,
+		"events": [
+			[
+				4062.5,
+				[
+					[
+						"changeicon",
+						"p1",
+						"ori"
+					]
+				]
+			],
+			[
+				28333.3333333333,
+				[
+					[
+						"Camera Follow Pos",
+						"600",
+						"600"
+					]
+				]
+			],
+			[
+				39895.8333333333,
+				[
+					[
+						"changeicon",
+						"p1",
+						"bf"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"changeicon",
+						"p1",
+						"ori"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"changeicon",
+						"p1",
+						"bf"
+					]
+				]
+			],
+			[
+				100000,
+				[
+					[
+						"changeicon",
+						"p1",
+						"bfori"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 144,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "trirotation"
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "shriek left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				-30
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "shriek down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "shriek up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-5
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "shriek right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "shriek idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shriek",
+	"position": [
+		-1150,
+		-1930
+	],
+	"healthicon": "shriek",
+	"flip_x": false,
+	"healthbar_colors": [
+		100,
+		100,
+		100
+	],
+	"camera_position": [
+		-1050,
+		-1740
+	],
+	"sing_duration": 6.1,
+	"scale": 3.5
+}

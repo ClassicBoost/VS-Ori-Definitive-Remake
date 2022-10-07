@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Trirotation", "iro", [50, 50, 50]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "nibel",
+
+	"storyName": "",
+	"weekBefore": "week1",
+	"weekName": "Week 2",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
