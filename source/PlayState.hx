@@ -210,6 +210,7 @@ class PlayState extends MusicBeatState
 	private var antimashshitlol = false;
 	public var sickperfects:Int = 0;
 	private var overridemiss:String = '';
+	private var poisonstacks:Float = 0;
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -1012,6 +1013,8 @@ class PlayState extends MusicBeatState
 
 		if (Paths.formatToSongPath(SONG.song) != 'tutorial')
 			camZooming = true;
+
+		poisonstacks = 0;
 
 		strumLine = new FlxSprite(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
 		if(ClientPrefs.downScroll) strumLine.y = FlxG.height - 150;
@@ -2234,13 +2237,10 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
-		if (songScore == 0 && songMisses == 0)
-		scoreTxt.text = 'Score: 0 - Accuracy: 0% - Combo Breaks: 0 (0) - Rank: F';
-		else
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' - Accuracy: ${Highscore.floorDecimal(ratingPercent * 100, 2)}%$ratingFC'
+		+ ' - Accuracy: ${Highscore.floorDecimal(ratingPercent * 100, 2)}% ($ratingFC - $ratingName)'
 		+ ' - Combo Breaks: ' + songMisses + ' (' + (songMisses + shits) + ')'
-		+ ' - Rank: $ratingName';
+		+ ' - Health: ${healthBar.percent}%';
 	}
 
 	public function setSongTime(time:Float)
@@ -2981,14 +2981,16 @@ class PlayState extends MusicBeatState
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
 
+		RecalculateRating();
+
 		if (health > 2)
 			health = 2;
 
-		if (healthBar.percent < 20) {
+		if (health <= 0.4) {
 			iconP1.animation.curAnim.curFrame = 1;
 			iconP2.animation.curAnim.curFrame = 2;
 		}
-		else if (healthBar.percent > 80) {
+		else if (health >= 1.6) {
 			iconP1.animation.curAnim.curFrame = 2;
 			iconP2.animation.curAnim.curFrame = 1;
 		}
@@ -4616,9 +4618,21 @@ class PlayState extends MusicBeatState
 								boyfriend.playAnim('hurt', true);
 								boyfriend.specialAnim = true;
 							}
-						case 'Glitch Note': // they're basically insta kill notes
-							health = -1;
 					}
+				}
+
+				switch(note.noteType) {
+					case 'decay-note':
+						if(boyfriend.animation.getByName('hurt') != null) {
+							boyfriend.playAnim('hurt', true);
+							boyfriend.specialAnim = true;
+						}
+						FlxG.sound.play(Paths.sound('rock'));
+						poisonstacks += 0.002;
+					case 'health':
+						health += 0.03;
+					case 'Glitch':
+						health -= 0.4; // It's usually just a temporary fast drain but I'm too lazy to add that.
 				}
 
 				note.wasGoodHit = true;
@@ -4637,7 +4651,7 @@ class PlayState extends MusicBeatState
 				if(combo > 9999) combo = 9999;
 				popUpScore(note);
 			}
-			if (ClientPrefs.healthtype == 'Psych') health += 0.004 * healthGain;
+			if (ClientPrefs.healthtype == 'Psych') health += 0.007 * healthGain;
 
 			if(!note.noAnimation) {
 				var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))];
@@ -4954,8 +4968,43 @@ class PlayState extends MusicBeatState
 			resyncVocals();
 		}
 
+		switch (Paths.formatToSongPath(SONG.song)) {
+			case 'spirit-tree':
+				switch (curStep) {
+					case 1,640:
+						if (ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
+						healthBar.visible = false;
+						healthBarBG.visible = false;
+						scoreTxt.visible = false;
+						judgementCounter.visible = false;
+					case 128:
+						if (ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
+						healthBar.visible = true;
+						healthBarBG.visible = true;
+						scoreTxt.visible = true;
+						judgementCounter.visible = true;
+				}
+			case 'decay':
+				switch (curStep) {
+					case 256,512,1024,1537,2432:
+						if (ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
+						FlxTween.tween(healthBar, {alpha: 0}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(judgementCounter, {alpha: 0}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(healthBarBG, {alpha: 0}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(scoreTxt, {alpha: 0}, 1, {ease: FlxEase.linear});
+					case 384,640,1136,1664,2688:
+						if (ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
+						FlxTween.tween(healthBar, {alpha: 1}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(judgementCounter, {alpha: 1}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(healthBarBG, {alpha: 1}, 1, {ease: FlxEase.linear});
+						FlxTween.tween(scoreTxt, {alpha: 1}, 1, {ease: FlxEase.linear});
+				}
+		}
+
 		antimashshitlol = false;
 		// I know there is another way but I'm too lazy lol
+
+		if (health >= poisonstacks) health -= poisonstacks;
 
 		if(curStep == lastStepHit) {
 			return;
@@ -4989,18 +5038,17 @@ class PlayState extends MusicBeatState
 		var funny2:Float = 1.2;
 
 		funny1 = (.3 * (health / 2)) + 1;
-		funny2 = (.15 / (health)) + 1;
 
 		iconP1.scale.set(funny1, funny1);
-		iconP2.scale.set(funny2, funny2);
+		iconP2.scale.set(funny1, funny1);
 
 		if (ClientPrefs.forevericonbop) {
 		if (curBeat % 2 == 0) {
-			FlxTween.angle(iconP1, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			if (health >= 0.4) FlxTween.angle(iconP1, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
 			FlxTween.angle(iconP2, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
 		}
 		else {
-			FlxTween.angle(iconP1, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			if (health >= 0.4) FlxTween.angle(iconP1, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
 			FlxTween.angle(iconP2, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
 		}
 		}
@@ -5156,7 +5204,7 @@ class PlayState extends MusicBeatState
 		}
 	}
 
-	public var ratingName:String = '?';
+	public var ratingName:String = 'F';
 	public var ratingPercent:Float;
 	public var ratingFC:String;
 	public function RecalculateRating(badHit:Bool = false) {
@@ -5170,7 +5218,7 @@ class PlayState extends MusicBeatState
 		if(ret != FunkinLua.Function_Stop)
 		{
 			if(totalPlayed < 1) //Prevent divide by 0
-				ratingName = '?';
+				ratingName = 'F';
 			else
 			{
 				// Rating Percent
@@ -5197,13 +5245,14 @@ class PlayState extends MusicBeatState
 
 			// Rating FC
 			ratingFC = "";
-			if (sicks > 0) ratingFC = " [MFC]";
-			if (goods > 0) ratingFC = " [GFC]";
-			if (bads > 0) ratingFC = " [FC]";
-			if (shits > 0) ratingFC = " [FC-]";
-			if (songMisses > 0 && songMisses < 10) ratingFC = " [SDCB]";
-			if (songMisses >= 10 && songMisses < 65) ratingFC = " [Clear]";
-			else if (songMisses >= 65) ratingFC = " [Skill Issue]";
+			if (sicks > 0) ratingFC = "MFC";
+			if (goods > 0) ratingFC = "GFC";
+			if (bads > 0) ratingFC = "FC";
+			if (shits > 0) ratingFC = "FC-";
+			if (songMisses > 0 && songMisses < 10) ratingFC = "SDCB";
+			if (songMisses >= 10 && songMisses < 65) ratingFC = "Clear";
+			else if (songMisses >= 65) ratingFC = "Skill Issue";
+			if (songScore == 0 && songMisses == 0) ratingFC = 'N/A';
 		}
 		setOnLuas('rating', ratingPercent);
 		setOnLuas('ratingName', ratingName);

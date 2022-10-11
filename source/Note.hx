@@ -142,9 +142,9 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
-				case 'Glitch Note':
+				case 'decay-note' | 'Glitch' | 'GlitchCOR' | 'GlitchUPDATED': // wtf why is there so many different types?
 					ignoreNote = mustPress;
-					reloadNote('GLITCH');
+					reloadNote('extra/Glitch');
 					noteSplashTexture = 'HURTnoteSplashes';
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
@@ -152,11 +152,16 @@ class Note extends FlxSprite
 					lowPriority = true;
 
 					if(isSustainNote) {
-						missHealth = 69;
+						missHealth = 0.1;
 					} else {
-						missHealth = 69;
+						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'health':
+					reloadNote('extra/HEAL');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 				case 'Alt Animation':
 					animSuffix = '-alt';
 				case 'No Animation':

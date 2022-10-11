@@ -1,6 +1,6 @@
 glowfollow = false
 function onStartCountdown()
-	if not allowCountdown and isStoryMode then
+	if not allowCountdown then
 		
 		addCharacterToList('cutscenebf', 'bf');
 		addCharacterToList('cutsceneori', 'dad');

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-5
+			],
+			"anim": "check",
+			"fps": 24,
+			"name": "cutscene-ori check",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-5
+			],
+			"anim": "annoy",
+			"fps": 10,
+			"name": "cutscene-ori annoy",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "surprise",
+			"indices": [],
+			"name": "cutscene-ori surprise"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-83
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "cutscene-ori idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-5
+			],
+			"anim": "sleep",
+			"fps": 24,
+			"name": "cutscene-ori sleep",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				-82
+			],
+			"loop": true,
+			"fps": 30,
+			"anim": "walk",
+			"indices": [],
+			"name": "cutscene-ori walk"
+		},
+		{
+			"offsets": [
+				76,
+				1
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "hug",
+			"loop": false,
+			"name": "cutscene-ori hug"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cutscene-ori",
+	"position": [
+		-100,
+		40
+	],
+	"healthicon": "ori",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		50,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

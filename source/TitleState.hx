@@ -197,6 +197,7 @@ class TitleState extends MusicBeatState
 			StoryMenuState.weekCompleted = FlxG.save.data.weekCompleted;
 		}
 
+		FlxG.autoPause = false;
 		FlxG.mouse.visible = false;
 		#if FREEPLAY
 		MusicBeatState.switchState(new FreeplayState());
@@ -408,6 +409,11 @@ class TitleState extends MusicBeatState
 		ngSpr.antialiasing = ClientPrefs.globalAntialiasing;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
+
+		skipIntro();
+		//FlxG.sound.music.stop();
+		FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+		FlxG.sound.music.fadeIn(4, 0, 0.7);
 
 		if (initialized)
 			skipIntro();
@@ -635,7 +641,8 @@ class TitleState extends MusicBeatState
 			sickBeats++;
 			switch (sickBeats)
 			{
-				case 1:
+			/*	case 1:
+					skipIntro();
 					//FlxG.sound.music.stop();
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
@@ -675,7 +682,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Engine');
 
 				case 17:
-					skipIntro();
+					skipIntro();*/
 			}
 		}
 	}

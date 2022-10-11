@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				10
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "shriek left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "shriek left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				80,
 				-30
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "shriek down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "shriek down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				24,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "shriek up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "shriek up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-31,
 				-5
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "shriek right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "shriek right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "shriek idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "shriek idle"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,8 +70,8 @@
 		100
 	],
 	"camera_position": [
-		-1050,
-		-1740
+		-1460,
+		-2100
 	],
 	"sing_duration": 6.1,
 	"scale": 3.5

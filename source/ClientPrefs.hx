@@ -39,7 +39,7 @@ class ClientPrefs {
 	public static var enginewatermarks:Bool = true;
 	public static var judgementstuff:Bool = true;
 	public static var newaccuracy:Bool = true;
-	public static var forevericonbop:Bool = false;
+	public static var forevericonbop:Bool = true;
 	public static var antimash:Bool = false;
 	public static var opponentsplashes:Bool = true;
 	public static var mechanics:Bool = true;
@@ -71,7 +71,7 @@ class ClientPrefs {
 		'opponentplay' => false
 	];
 
-	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
+	public static var comboOffset:Array<Int> = [-308, 22, -209, 48];
 	public static var ratingOffset:Int = 0;
 	public static var sickWindow:Int = 45;
 	public static var goodWindow:Int = 90;

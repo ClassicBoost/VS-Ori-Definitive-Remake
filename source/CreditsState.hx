@@ -81,11 +81,14 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Definitive Remake'],
+			['Classic1926',			'raylo',						"Programmer, Designer, and creator of this mod.",		'https://www.youtube.com/channel/UCKcqlPIGcsoiGl9qsasAJhw',	'F73838'],
+			[''],
 			['Mod Credits'],
-			['Classic1926',			'raylo',						"Main Coder, Designer, and creator of this mod.",		'https://www.youtube.com/channel/UCKcqlPIGcsoiGl9qsasAJhw',	'F73838'],
+			['Classic1926',			'raylo',						"dumbass",		'https://www.youtube.com/channel/UCKcqlPIGcsoiGl9qsasAJhw',	'F73838'],
 			['Alucardseibie',				'AlucardSeibie_Icon',			"Charter, Composer (vocals), and Coder",							'https://www.youtube.com/channel/UCYzf5-SBHHSZE49MeWbhfig',	'FF4800'],
-			['Doger',				'doge',							"Coder (lua), Designer, Charter, and Animator\n(I'm so sorry)",										'',	'07FF00'],
-			['Voltex',					'voltex',					"Composer",										'https://gamebanana.com/mods/377146',	'FF29DC'],
+			['Doger',				'doge',							"Scripter, Designer, Charter, and Animator.",										'https://gamebanana.com/members/2147384',	'07FF00'],
+			['Voltex',					'voltex',					"Composer",										'',	'FF29DC'],
 			['OuroborosFinis',					'finis',			"Tester, Charter, and Composer (vocals)",						'https://gamebanana.com/members/2140151',	'FFFFFF'],
 			['James Jamestar',					'james',			"Composer (vocals)",										'https://www.youtube.com/channel/UC-AOVV2VvyfW9pK4YtHoZTg',	'FFFFFF'],
 			['TheZoeGamer12',					'placeholder',		"Artist",										'',	'FFFFFF'],

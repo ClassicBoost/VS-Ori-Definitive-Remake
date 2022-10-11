@@ -7,6 +7,7 @@ import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 
@@ -25,6 +26,8 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
 
+	private var messageig:FlxText;
+
 	public static var instance:GameOverSubstate;
 
 	public static function resetVariables() {
@@ -36,6 +39,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	override function create()
 	{
+
 		instance = this;
 		PlayState.instance.callOnLuas('onGameOverStart', []);
 
@@ -66,6 +70,13 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		boyfriend.playAnim('firstDeath');
 
+		messageig = new FlxText(5, FlxG.height - 100, FlxG.width, "If you think the song is too hard\nyou can turn on hitsounds or mash (in some situations)", 12);
+		messageig.scrollFactor.set();
+		messageig.setFormat("Bronx", 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		messageig.borderSize = 1.5;
+		messageig.visible = false;
+		add(messageig);
+
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
 		add(camFollowPos);
@@ -85,6 +96,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (controls.ACCEPT)
 		{
 			endBullshit();
+			messageig.visible = false;
 		}
 
 		if (controls.BACK)
@@ -92,7 +104,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			FlxG.sound.music.stop();
 			PlayState.deathCounter = 0;
 			PlayState.seenCutscene = false;
-
+			messageig.visible = false;
 			WeekData.loadTheFirstEnabledMod();
 			if (PlayState.isStoryMode)
 				MusicBeatState.switchState(new StoryMenuState());
@@ -156,6 +168,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	function coolStartDeath(?volume:Float = 1):Void
 	{
 		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
+		messageig.visible = true;
 	}
 
 	function endBullshit():Void

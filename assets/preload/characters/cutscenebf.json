@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "walk",
+			"fps": 24,
+			"name": "cutscene-bf walk",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "stand",
+			"indices": [],
+			"name": "BF standing"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle edance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				27
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE eUPUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idleup",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				30
+			],
+			"anim": "singUPUP",
+			"fps": 24,
+			"name": "BF NOTE UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "standup",
+			"indices": [],
+			"name": "BF quickidleup"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				692,
+				341
+			],
+			"anim": "getup",
+			"fps": 15,
+			"name": "cutscene-bf getup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				670,
+				450
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "falling",
+			"indices": [],
+			"name": "cutscene-bf falling"
+		},
+		{
+			"offsets": [
+				677,
+				390
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "land",
+			"indices": [],
+			"name": "cutscene-bf land"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				680,
+				383
+			],
+			"anim": "sleep",
+			"fps": 15,
+			"name": "cutscene-bf sleep",
+			"indices": []
+		},
+		{
+			"offsets": [
+				631,
+				425
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "surprise",
+			"loop": false,
+			"name": "cutscene-bf surprise"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cutscene-bf",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

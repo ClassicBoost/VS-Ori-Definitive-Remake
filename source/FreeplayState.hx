@@ -507,7 +507,8 @@ class FreeplayState extends MusicBeatState
 			}
 			
 			if (FlxG.keys.pressed.SHIFT){
-				LoadingState.loadAndSwitchState(new ChartingState());
+				if (!overnocheatsonglol) LoadingState.loadAndSwitchState(new ChartingState());
+				else FlxG.sound.play(Paths.sound('no'));
 			}else{
 				LoadingState.loadAndSwitchState(new PlayState());
 			}
