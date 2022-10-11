@@ -1,0 +1,3 @@
+makes an object play an animation
+var1 is the tag
+var2 is the animation name

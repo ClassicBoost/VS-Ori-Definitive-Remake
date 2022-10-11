@@ -1,0 +1,3 @@
+yes
+set var1 to true if you wanna b o p
+or leave it blank to n o t

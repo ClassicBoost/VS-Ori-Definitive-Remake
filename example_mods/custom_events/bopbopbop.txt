@@ -1,0 +1,3 @@
+yes
+set var1 to true if you want cam to bop every beat
+or leave it blank to n o t
